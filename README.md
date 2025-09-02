@@ -14,4 +14,8 @@ This is the homepage for YGTQ Solutions LLC.
     bash ./scripts/install_tools.sh
     ```
 
-### 
+### Run locally
+
+```bash
+hugo server
+```
