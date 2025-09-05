@@ -1,3 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ygtqsolutions.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'YGTQ Solutions'
+
+[services]
+  [services.disqus]
+    shortname = 'ygtqsolutions'

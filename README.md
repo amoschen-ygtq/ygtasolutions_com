@@ -19,3 +19,9 @@ This is the homepage for YGTQ Solutions LLC.
 ```bash
 hugo server
 ```
+
+To serve the draft articles/posts add the `-D` option.
+
+```bash
+hugo server -D
+```
