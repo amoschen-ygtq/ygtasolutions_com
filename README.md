@@ -1,6 +1,6 @@
 # YGTQ Solutions
 
-This is the homepage for YGTQ Solutions LLC.
+This is the homepage for Amos Chen.
 
 ## Development setup
 
