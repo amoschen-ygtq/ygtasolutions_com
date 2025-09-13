@@ -42,4 +42,5 @@ We are going to use an LLM model to summarize a web page and store the outcome i
 ## References
 
 - Udemy - [LLM Engineering: Master AI, Large Language Models & Agents](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models) Created by **Ligency Team**, **Ed Donner**. Last updated 12/2024
+- GitHub - [llm_engineering](https://github.com/ed-donner/llm_engineering) by **Ed Donner**
 - AWS - [Track, allocate, and manage your generative AI cost and usage with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/track-allocate-and-manage-your-generative-ai-cost-and-usage-with-amazon-bedrock/) by **Kyle Blocksom** and **Dhawalkumar Patel** on 01 NOV 2024
