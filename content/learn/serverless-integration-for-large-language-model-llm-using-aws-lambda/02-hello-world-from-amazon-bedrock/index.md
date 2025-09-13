@@ -2,6 +2,7 @@
 date: '2025-09-09T23:50:42Z'
 draft: false
 title: '2 - Hello World from Amazon Bedrock'
+weight: 2
 
 description: "Deploy Llama 3.2 1B model with Amazon Bedrock and AWS Lambda for serverless AI integration."
 summary: "This guide details how to use Amazon Bedrock and AWS Lambda to deploy and invoke the Llama 3.2 1B model in a serverless environment. It covers enabling model access, creating a Python-based Lambda function, configuring IAM permissions, and testing the setup, with step-by-step instructions for seamless AI integration."

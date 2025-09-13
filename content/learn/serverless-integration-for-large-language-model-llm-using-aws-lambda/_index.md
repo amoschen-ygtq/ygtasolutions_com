@@ -1,6 +1,7 @@
 ---
 title: "Serverless Integration for Large Language Model (LLM) using AWS Lambda"
-date: 2025-09-10T01:58:47Z
+date: 2025-09-10
+lastmod: 2025-09-13
 draft: false
 
 description: "Learn to summarize web pages using a Large Language Model and store results in Amazon DynamoDB with AWS Lambda."
@@ -9,14 +10,14 @@ summary: "This blog guides you through using a Large Language Model (LLM) to sum
 tags: ["ai-integration", "aws-serverless", "llm", "web-summarization", "dynamo-db"]
 
 showDate : false
-showDateUpdated : false
+showDateUpdated : true
 showHeadingAnchors : false
 showPagination : false
 showReadingTime : false
 showTableOfContents : true
 showTaxonomies : false 
 showWordCount : false
-showSummary : false
+showSummary : true
 sharingLinks : false
 ---
 
@@ -46,3 +47,7 @@ In this blog, we'll use a Large Language Model (LLM) to summarize a web page and
 - Udemy - [LLM Engineering: Master AI, Large Language Models & Agents](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models) Created by **Ligency Team**, **Ed Donner**
 - GitHub - [llm_engineering](https://github.com/ed-donner/llm_engineering) by **Ed Donner**
 - AWS - [Track, allocate, and manage your generative AI cost and usage with Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/track-allocate-and-manage-your-generative-ai-cost-and-usage-with-amazon-bedrock/) by **Kyle Blocksom** and **Dhawalkumar Patel** on 01 NOV 2024
+
+## Step by step implementation
+
+

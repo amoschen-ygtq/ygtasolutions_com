@@ -2,6 +2,7 @@
 date: '2025-09-12T10:58:30Z'
 draft: false
 title: '3 - Fetch HTML with an URL'
+weight: 3
 
 description: "Extract plain text from URLs using BeautifulSoup for reusable web scraping in AI-driven apps."
 summary: "This guide explores how to use BeautifulSoup to extract plain text from URLs and build a reusable web scraper for integration into AI-driven applications like AWS Lambda. It includes step-by-step instructions for creating and testing a Python-based scraper with a modular class design."
