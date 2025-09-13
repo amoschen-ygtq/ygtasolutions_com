@@ -2,9 +2,9 @@
 date: '2025-09-09T23:50:42Z'
 draft: false
 title: '2 - Hello World from Amazon Bedrock'
-description: "Calling Llama 3.2 from VSCode DevContainer"
-summary: "Run Python code in VSCode DevContainer and send prompt to Llama 3.2 running in Ollama"
-tags: ["Ollama", "DevContainer"]
+description: "Calling Llama 3.2 from AWS Lambda"
+summary: "Run Python code in AWS Lambda and send prompt to Llama 3.2 hosted in Amazon Bedrock"
+tags: ["AWS Lambda", "Amazon Bedrock", "Serverless"]
 ---
 
 ## Overview

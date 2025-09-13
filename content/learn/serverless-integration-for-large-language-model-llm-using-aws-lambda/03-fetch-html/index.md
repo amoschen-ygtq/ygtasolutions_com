@@ -9,7 +9,7 @@ tags: ["Requests", "BeautifulSoup4"]
 
 ## Overview
 
-
+Fetch HTML content using an URL and then extract the content as plain text.
 
 ## Get plain text from an URL
 
