@@ -4,5 +4,7 @@ draft: true
 title: '5 - Summarize Web Content using Amazon Bedrock'
 description: ""
 summary: ""
-tags: ["BeautifulSoup4", "Amazon Bedrock", "Serverless"]
+tags: []
 ---
+
+5 - Summarize Web Content using Amazon Bedrock
