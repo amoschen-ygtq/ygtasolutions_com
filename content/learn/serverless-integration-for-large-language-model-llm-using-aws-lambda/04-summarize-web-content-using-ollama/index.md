@@ -2,6 +2,7 @@
 date: '2025-09-13'
 draft: false
 title: '4 - Summarize Web Content using Ollama'
+weight: 4
 
 description: "Build a modular Python app for web scraping and AI summarization with BeautifulSoup and Ollama."
 summary: "This guide shows how to create a modular Python application for web scraping and AI summarization using BeautifulSoup and Ollama. It covers organizing scraper and chat services into a reusable module, integrating them in a main script, and generating summaries from online content."

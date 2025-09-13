@@ -2,6 +2,7 @@
 date: '2025-09-05T23:48:42Z'
 draft: false
 title: '1 - Hello World from Ollama'
+weight: 1
 
 description: "Set up a local AI development environment with Ollama and DevContainers for cost-free LLM integration in VS Code."
 summary: "This guide walks you through setting up a local AI development environment using Ollama for running large language models and DevContainers in Visual Studio Code for a consistent, isolated setup. It covers installation, configuration, and making REST API calls to Ollama, with specific instructions for Windows users using WSL 2."
