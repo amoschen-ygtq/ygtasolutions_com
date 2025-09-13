@@ -20,7 +20,7 @@ sharingLinks : false
 
 ## About
 
-We are going to use an LLM model to summarize a web page and store the outcome into a DynamoDB table. The page is provided through an URL which is also the key used for storing the summarization outcome in the DynamoDB table.
+In this blog, we'll use a Large Language Model (LLM) to summarize a web page and store the summary in a DynamoDB table. The web page's URL serves as both the input source and the key for storing the summary in the table.
 
 [{{< icon "github" >}}](https://github.com/amoschen-ygtq/llm-with-lambda) **[source code](https://github.com/amoschen-ygtq/llm-with-lambda)**
 
