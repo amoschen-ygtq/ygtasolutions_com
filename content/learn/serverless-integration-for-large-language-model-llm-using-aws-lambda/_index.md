@@ -2,9 +2,11 @@
 title: "Serverless Integration for Large Language Model (LLM) using AWS Lambda"
 date: 2025-09-10T01:58:47Z
 draft: false
-description: "Serverless LLM engineering"
-summary: "An example of using serverless tech stack to do LLM engineering"
-tags: ["Amazon Bedrock", "AWS Lambda", "Serverless"]
+
+description: "Learn to summarize web pages using a Large Language Model and store results in Amazon DynamoDB with AWS Lambda."
+summary: "This blog guides you through using a Large Language Model (LLM) to summarize web pages, storing the summaries in an Amazon DynamoDB table using AWS Lambda. It includes prerequisites, architecture details, and references to resources like Udemy courses and GitHub repositories."
+
+tags: ["ai-integration", "aws-serverless", "llm", "web-summarization", "dynamo-db"]
 
 showDate : false
 showDateUpdated : false
@@ -20,7 +22,7 @@ sharingLinks : false
 
 ## About
 
-In this blog, we'll use a Large Language Model (LLM) to summarize a web page and store the summary in a DynamoDB table. The web page's URL serves as both the input source and the key for storing the summary in the table.
+In this blog, we'll use a Large Language Model (LLM) to summarize a web page and store the summary in an Amazon DynamoDB table. The web page's URL serves as both the input source and the key for storing the summary in the table.
 
 [{{< icon "github" >}}](https://github.com/amoschen-ygtq/llm-with-lambda) **[source code](https://github.com/amoschen-ygtq/llm-with-lambda)**
 

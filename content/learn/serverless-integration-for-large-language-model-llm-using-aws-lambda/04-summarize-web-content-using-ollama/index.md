@@ -2,14 +2,16 @@
 date: '2025-09-13'
 draft: false
 title: '4 - Summarize Web Content using Ollama'
-description: "Use a prompt to summarize web content."
-summary: "Summarize plain text extracted from HTML into a structured Markdown content."
-tags: ["BeautifulSoup4", "Ollama"]
+
+description: "Build a modular Python app for web scraping and AI summarization with BeautifulSoup and Ollama."
+summary: "This guide shows how to create a modular Python application for web scraping and AI summarization using BeautifulSoup and Ollama. It covers organizing scraper and chat services into a reusable module, integrating them in a main script, and generating summaries from online content."
+
+tags: ["python-development", "web-scraping", "ollama", "modular-apps", "ai-integration"]
 ---
 
 ## Overview
 
-Distill the actual content from plain text version of a website and structure it nicely in Markdown format.
+Unlock the power of web scraping and AI summarization by building a modular Python application to efficiently process and summarize online content.
 
 ## Services
 

@@ -2,18 +2,20 @@
 date: '2025-09-12T10:58:30Z'
 draft: false
 title: '3 - Fetch HTML with an URL'
-description: "Building a service for fetching HTML."
-summary: "Use Python packages, requests and BeautifulSoup4, to parse HTML into plain text."
-tags: ["Requests", "BeautifulSoup4"]
+
+description: "Extract plain text from URLs using BeautifulSoup for reusable web scraping in AI-driven apps."
+summary: "This guide explores how to use BeautifulSoup to extract plain text from URLs and build a reusable web scraper for integration into AI-driven applications like AWS Lambda. It includes step-by-step instructions for creating and testing a Python-based scraper with a modular class design."
+
+tags: ["web-scraping", "beautifulsoup", "python-development", "ai-integration", "url-extraction"]
 ---
 
 ## Overview
 
-Fetch HTML content using an URL and then extract the content as plain text.
+Learn to extract plain text from URLs using BeautifulSoup and create a reusable web scraper for seamless integration into AI-driven applications like AWS Lambda.
 
 ## Get plain text from an URL
 
-First add the `beautifulsoup4` package to the prject.
+First add the `beautifulsoup4` package to the project.
 
 ```bash
 pipenv install beautifulsoup4

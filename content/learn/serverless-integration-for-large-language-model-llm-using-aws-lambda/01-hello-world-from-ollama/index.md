@@ -2,14 +2,16 @@
 date: '2025-09-05T23:48:42Z'
 draft: false
 title: '1 - Hello World from Ollama'
-description: "Calling Llama 3.2 from VSCode DevContainer"
-summary: "Run Python code in VSCode DevContainer and send prompt to Llama 3.2 running in Ollama"
-tags: ["Ollama", "DevContainer"]
+
+description: "Set up a local AI development environment with Ollama and DevContainers for cost-free LLM integration in VS Code."
+summary: "This guide walks you through setting up a local AI development environment using Ollama for running large language models and DevContainers in Visual Studio Code for a consistent, isolated setup. It covers installation, configuration, and making REST API calls to Ollama, with specific instructions for Windows users using WSL 2."
+
+tags: ["local-development", "ollama", "devcontainers", "llm", "cost-effective-ai"]
 ---
 
 ## Overview
 
-We are going to run the Meta Llama 3.2 model locally using Ollama. Then we will use Ollama's REST API to chat with this model.
+Learn how to set up a local AI development environment using Ollama and DevContainers for seamless, cost-free LLM integration in Visual Studio Code.
 
 ## Ollama
 
@@ -33,7 +35,7 @@ Click <a href="#skip-wsl-install">here</a> to skip to the next section if you ar
 
 Most of our instructions will be based on a Linux-like terminal and Shell environment. To align Windows with Mac and Linux we are going to use the Windows Subsystem for Linux Version 2 (WSL 2) for Windows users.
 
-We need WSL 2 to run our DevContainer environment. For Windows 11 and Windows 10 with version 1903 or higher, with build 18362 or higher WSL will autometically install version 2. Otherwise you have to stop here unfortunately.
+We need WSL 2 to run our DevContainer environment. For Windows 11 and Windows 10 with version 1903 or higher, with build 18362 or higher WSL will automatically install version 2. Otherwise you have to stop here unfortunately.
 
 Open PowerShell as an administrator and run the command `wsl --install`. This will install WSL and the default Ubuntu distribution. After the installation, you'll need to restart your computer. Once restarted, a setup process will begin in a new window, prompting you to create a Unix username and password for your Linux distribution.
 
@@ -123,7 +125,7 @@ If you don't have Docker running or installed it's time to do this first.
 
 Open Visual Studio Code and then use its **Open Folder...** function under the File menu to open the folder `llm_with_lambda` folder we created previously.
 
-The DevContainer extension will recogonize the `.devcontainer` folder and the settings specified in the JSON file. It will pull the Docker image specified in the JSON from Microsoft and run in your local Docker engine.
+The DevContainer extension will recognize the `.devcontainer` folder and the settings specified in the JSON file. It will pull the Docker image specified in the JSON from Microsoft and run in your local Docker engine.
 
 Visual Studio Code will then use this Docker container as the development environment.
 

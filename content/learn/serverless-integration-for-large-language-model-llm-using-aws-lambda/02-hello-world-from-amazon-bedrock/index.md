@@ -2,22 +2,24 @@
 date: '2025-09-09T23:50:42Z'
 draft: false
 title: '2 - Hello World from Amazon Bedrock'
-description: "Calling Llama 3.2 from AWS Lambda"
-summary: "Run Python code in AWS Lambda and send prompt to Llama 3.2 hosted in Amazon Bedrock"
-tags: ["AWS Lambda", "Amazon Bedrock", "Serverless"]
+
+description: "Deploy Llama 3.2 1B model with Amazon Bedrock and AWS Lambda for serverless AI integration."
+summary: "This guide details how to use Amazon Bedrock and AWS Lambda to deploy and invoke the Llama 3.2 1B model in a serverless environment. It covers enabling model access, creating a Python-based Lambda function, configuring IAM permissions, and testing the setup, with step-by-step instructions for seamless AI integration."
+
+tags: ["aws-serverless", "amazon-bedrock", "llama-model", "python-development", "ai-integration"]
 ---
 
 ## Overview
 
-We are going to chat with the Meta Llama 3.2 hosted in Amazon Bedrock by sending a prompt using AWS Lambda.
+Discover how to leverage Amazon Bedrock and AWS Lambda to deploy and invoke the Llama 3.2 1B model for seamless AI integration in a serverless environment.
 
 ## Amazon Bedrock
 
-AWS Bedrock is a fully managed Amazon Web Services (AWS) service that provides access to various leading foundational AI models from providers like AI21 Labs, Anthropic, Meta, Mistral AI, Stability AI, and Amazon itself.
+Amazon Bedrock is a fully managed Amazon Web Services (AWS) service that provides access to various leading foundational AI models from providers like AI21 Labs, Anthropic, Meta, Mistral AI, Stability AI, and Amazon itself.
 
 The Llama model is accessed through an inference profile. Permission need to be granted to both the model and the inference profile for invoking the model. If the inference profile is cross-region then permission need to be grant to models in each of the regions. The extra layer of this inference profile is mainly used for tracking model usage.
 
-- Log into your AWS managment console, then go to **Bedrock** service.
+- Log into your AWS management console, then go to **Bedrock** service.
 - From the left-hand side navigation panel open **Model access**.
 - Click on the **Modify model access** button.
 - Search for `Llama 3.2 1B` in the search box.
@@ -125,7 +127,7 @@ Open **Bedrock** in a **separate tab**.
     arn:aws:bedrock:us-east-1:123456789012:inference-profile/us.meta.llama3-2-1b-instruct-v1:0
     ```
 
-As a sidenote, from the ARN's tokens we can guess the models are shared across all AWS account in one region while the inference profile is created for each account.
+As a side-note, from the ARN's tokens we can guess the models are shared across all AWS account in one region while the inference profile is created for each account.
 
 - Go back to the **IAM** console tab that remained open for the Lambda's execution role.
 - Click on the **Add permission** dropdown, and choose **Create inline policy**.
