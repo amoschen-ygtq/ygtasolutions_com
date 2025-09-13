@@ -22,7 +22,7 @@ sharingLinks : false
 
 We are going to use an LLM model to summarize a web page and store the outcome into a DynamoDB table. The page is provided through an URL which is also the key used for storing the summarization outcome in the DynamodDB table.
 
-**[source code](https://github.com/amoschen-ygtq/llm-with-lambda)**
+[{{< icon "github" >}}](https://github.com/amoschen-ygtq/llm-with-lambda) **[source code](https://github.com/amoschen-ygtq/llm-with-lambda)**
 
 ## Pprerequisite
 
