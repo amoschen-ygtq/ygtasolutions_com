@@ -208,7 +208,7 @@ The "Hello, world!" greeting is a traditional way to test if someone's code is r
 To confirm, I'd be happy to chat with you about your dev container setup or help you troubleshoot any issues you might be facing. What would you like to know or discuss?
 ```
 
-## Achievment
+## Achievement
 
 So far we have created a development environment with an LLM running locally that we can use through our Python code without introducing any cost. When our prompt(s) becomes ready we can switch to the frontier model such as GPT5, Grok4, and Claude Opus.
 
