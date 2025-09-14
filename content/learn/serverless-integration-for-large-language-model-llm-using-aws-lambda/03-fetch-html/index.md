@@ -14,6 +14,8 @@ tags: ["web-scraping", "beautifulsoup", "python-development", "ai-integration", 
 
 Learn to extract plain text from URLs using BeautifulSoup and create a reusable web scraper for seamless integration into AI-driven applications like AWS Lambda.
 
+[{{< icon "github" >}}](https://github.com/amoschen-ygtq/llm-with-lambda/tree/learn-serverless-integration-for-llm-4) **[source code](https://github.com/amoschen-ygtq/llm-with-lambda/tree/learn-serverless-integration-for-llm-4)**
+
 ## Get plain text from an URL
 
 First add the `beautifulsoup4` package to the project.

@@ -14,6 +14,8 @@ tags: ["aws-serverless", "amazon-bedrock", "llama-model", "python-development", 
 
 Discover how to leverage Amazon Bedrock and AWS Lambda to deploy and invoke the Llama 3.2 1B model for seamless AI integration in a serverless environment.
 
+[{{< icon "github" >}}](https://github.com/amoschen-ygtq/llm-with-lambda/tree/learn-serverless-integration-for-llm-4) **[source code](https://github.com/amoschen-ygtq/llm-with-lambda/tree/learn-serverless-integration-for-llm-4)**
+
 ## Amazon Bedrock
 
 Amazon Bedrock is a fully managed Amazon Web Services (AWS) service that provides access to various leading foundational AI models from providers like AI21 Labs, Anthropic, Meta, Mistral AI, Stability AI, and Amazon itself.

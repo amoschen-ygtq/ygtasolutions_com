@@ -27,6 +27,8 @@ In this blog, we'll use a Large Language Model (LLM) to summarize a web page and
 
 [{{< icon "github" >}}](https://github.com/amoschen-ygtq/llm-with-lambda) **[source code](https://github.com/amoschen-ygtq/llm-with-lambda)**
 
+> The above is the latest code. Please use source code link provided in each implementation step for consistency with the blog content.)
+
 ## Prerequisite
 
 1. A computer. If using Windows please check it's Windows 11 and recent versions of Windows 10 (version 1903 or higher, with build 18362 or higher).
