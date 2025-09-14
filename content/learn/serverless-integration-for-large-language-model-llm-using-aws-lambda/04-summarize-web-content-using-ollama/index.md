@@ -14,6 +14,8 @@ tags: ["python-development", "web-scraping", "ollama", "modular-apps", "ai-integ
 
 Unlock the power of web scraping and AI summarization by building a modular Python application to efficiently process and summarize online content.
 
+[{{< icon "github" >}}](https://github.com/amoschen-ygtq/llm-with-lambda/tree/learn-serverless-integration-for-llm-4) **[source code](https://github.com/amoschen-ygtq/llm-with-lambda/tree/learn-serverless-integration-for-llm-4)**
+
 ## Services
 
 In order to orchestrate two major tasks - scraping and summarizing we need to package these two tasks into a self-contained module.

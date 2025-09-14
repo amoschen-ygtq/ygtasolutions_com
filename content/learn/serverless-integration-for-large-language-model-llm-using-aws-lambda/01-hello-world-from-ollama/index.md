@@ -14,6 +14,8 @@ tags: ["local-development", "ollama", "devcontainers", "llm", "cost-effective-ai
 
 Learn how to set up a local AI development environment using Ollama and DevContainers for seamless, cost-free LLM integration in Visual Studio Code.
 
+[{{< icon "github" >}}](https://github.com/amoschen-ygtq/llm-with-lambda/tree/learn-serverless-integration-for-llm-4) **[source code](https://github.com/amoschen-ygtq/llm-with-lambda/tree/learn-serverless-integration-for-llm-4)**
+
 ## Ollama
 
 [Ollama](https://ollama.com/) is a simple, open-source tool that allows you to download, run, and manage large language models (LLMs) on your own computer, making it easier to use powerful AI locally and privately without relying on cloud services.
